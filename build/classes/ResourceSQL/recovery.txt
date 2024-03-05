@@ -1,0 +1,6 @@
+connect target "sys/Oracle123 as sysdba";
+STARTUP FORCE MOUNT;
+restore database;
+recover database;
+ALTER DATABASE OPEN;
+exit;

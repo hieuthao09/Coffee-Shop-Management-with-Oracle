@@ -1,0 +1,1 @@
+select max(MAKH) from datacaphe.KHACHHANG
